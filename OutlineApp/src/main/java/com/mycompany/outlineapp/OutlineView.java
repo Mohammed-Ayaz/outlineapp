@@ -8,14 +8,24 @@ package com.mycompany.outlineapp;
  *
  * @author human
  */ 
-
 import java.util.List;
 
 public class OutlineView {
+    // Display the outline by printing each node in the list
     public void displayOutline(List<String> outlineList) {
         for (String text : outlineList) {
             System.out.println(text);
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
 
